@@ -3,7 +3,7 @@ Description=Soft shutdown for Raspberry Pi with Pi Supply
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python2 /opt/softshut.py
+ExecStart=/usr/bin/python2 /usr/share/softshut/softshut.py
 
 [Install]
 WantedBy=default.target
